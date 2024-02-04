@@ -28,11 +28,7 @@ main {
   padding: 80px;
 }
 main img {
-  width: 100%;
   height: 400px;
-}
-.card {
-  width: 24%;
 }
 footer {
   grid-area: footer;
@@ -45,4 +41,55 @@ footer {
     "menu main main"
     "footer footer footer";
   background-color: #e1e1e1;
+}
+
+.bg {
+  background-position: center;
+  background-size: cover;
+}
+.imagen1 {
+  grid-area: a;
+  background-image: url("f1.jpg");
+}
+.imagen2 {
+  grid-area: b;
+  background-image: url("f2.jpg");
+}
+.imagen3 {
+  grid-area: c;
+  background-image: url("f3.jpg");
+}
+.imagen4 {
+  grid-area: d;
+  background-image: url("f4.jpg");
+}
+.imagen5 {
+  grid-area: e;
+  background-image: url("f4.jpg");
+}
+.imagen6 {
+  grid-area: f;
+  background-image: url("f4.jpg");
+}
+.imagen7 {
+  grid-area: g;
+  background-image: url("f4.jpg");
+}
+.imagen8 {
+  grid-area: h;
+  background-image: url("f4.jpg");
+}
+.imagen9 {
+  grid-area: i;
+  background-image: url("f4.jpg");
+}
+.gallery {
+  height: 140vh;
+  display: grid;
+  align-items: center;
+  gap: 10px;
+  grid-template-areas:
+    "a a b b c c"
+    "d d e e f f"
+    "g g h h i i";
 }
